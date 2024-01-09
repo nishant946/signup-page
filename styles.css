@@ -1,0 +1,82 @@
+<style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+        .main{
+            height: 100vh;
+            background-color: rgb(106, 117, 165);
+            box-shadow: 2px 2px 2px rgb(66, 65, 182);
+            position: relative;
+
+
+        }
+        .nav{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .ul{
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            font-family: "Poppins", sans-serif;
+
+            /* text-decoration: none; */
+        }
+        a{
+            text-decoration: none;
+            color: white
+
+
+        }
+        .nav1{
+            font-family: "Poppins", sans-serif;
+
+            font-size: 1.5rem;
+            margin-top: 1rem;
+
+        }
+        .btn{
+            /* margin: 5px; */
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color: aqua;
+            color: white;
+        }
+        .down{
+            position: absolute;
+            bottom: 20vh;
+            display: flex;
+            justify-content: space-between;
+            gap: 25rem;
+        }
+        .signupFrm{
+            background-color: azure;
+            padding-top: 3rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-bottom: 3rem;
+            box-shadow: 4px 4px 15px rgb(51, 50, 50);
+            /* box-shadow: -4px -4px 5px rgb(51, 50, 50); */
+            
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .loream{
+            margin-left: 15rem
+        }
+        .submitbtn{
+           
+        }
+        .title{
+            font-family: "Poppins", sans-serif;
+        }
+        .loream{
+            display: flex;
+            flex-direction: column;
+            gap: 1.4rem;
+        }
+
+    </style>
